@@ -5,6 +5,7 @@
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
 }
 
 #page-wrap {
@@ -21,11 +22,29 @@ body {
 
 section > div { padding: 20px; }
 
-header, nav, section, footer {
+header, nav, section {
 	background: #eee;
 	text-align: center
 }
 
-nav span {
+nav span, footer span {
 	margin: 0px 10px 0px 0px;
+}
+	
+footer {
+	background: #333;
+	height: 20px;
+	text-align: center;
+}
+
+footer li {
+	list-style-type: none;
+	color: white;
+	display: inline;
+	padding: 0 5px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
 }
