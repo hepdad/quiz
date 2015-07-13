@@ -4,3 +4,19 @@ h2 span, section h3 { display: none; }
 body { font-size: xx-large; }
 input { font-size: large; }
 footer { font-size: 16px; }
+
+
+#creditos img {
+	width: 150px;
+	height: 150px;
+}
+
+#creditos video {
+	width: 200px;
+	height: 200px;
+}
+
+#creditos p {
+	font-size: 16px;
+	font-weight: bold;
+}
